@@ -5,3 +5,58 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body { 
+    background-color: #eeeeee;
+    color: #ffff;
+}
+
+
+section.container {
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(79, 79, 79);
+    width: 700px;
+    text-align: center;
+    margin: 50px auto;
+    background-color: #393e46;
+    align-items: center;
+    padding: 0 40px;
+}
+
+h1 {
+    padding: 20px;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+}
+
+h2, h3, i {
+    padding: 5px;
+}
+
+h2 {
+    letter-spacing: 0.2em;
+}
+h3 {
+    color: #ffd369;
+}
+
+img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #5e5e5e;
+}
+
+button {
+    background-color: transparent;
+    border: transparent;
+}
+
+button > i {
+    font-size: 1.5em;
+    margin: 10px 0px;
+    color: #ffd369;
+}
+
+
+
+
