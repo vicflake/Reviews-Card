@@ -26,6 +26,7 @@ h1 {
     padding: 20px;
     font-size: 2em;
     letter-spacing: 0.1em;
+    text-transform: capitalize;
 }
 
 h2, h3, i {
@@ -34,16 +35,25 @@ h2, h3, i {
 
 h2 {
     letter-spacing: 0.2em;
+    text-transform: capitalize;
 }
 h3 {
     color: #ffd369;
+    text-transform: capitalize;
 }
 
-img {
-    width: 200px;
-    margin: 10px;
+.img-container {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+#person-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 50%;
-    box-shadow: 5px 5px 10px #5e5e5e;
 }
 
 button {
@@ -56,6 +66,7 @@ button > i {
     margin: 10px 0px;
     color: #ffd369;
 }
+
 
 
 
